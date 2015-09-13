@@ -13,9 +13,9 @@
 	<div id="bodyLeftPan">
 		<h2><span>Contacts:-</span></h2>
                 <p style="color:#999999;text-decoration:underline">address:-</p>
-                <p>Jrd complex Ranchi Branch-Jharkhand.<br></p>
-                <p>Plaza complex Patna Branch-Bihar.<br></p>
-                <p>City Mart Kolkata Branch-West Bengal.<br></p>
+                <p>Ashutosh Kumar<br></p>
+                <p>BIT Mesra<br></p>
+                <p>Software Developer<br></p>
                 <p style="color:#999999;text-decoration:underline">Ph:-</p>
                 <p>333-12456<br>459-523121<br>547-213521<br></p>
 		<p class="more"><a href="#">contacts</a></p>

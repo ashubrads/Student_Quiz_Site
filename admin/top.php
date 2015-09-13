@@ -34,6 +34,7 @@
 				<li><a href="contacts.php">Contact</a></li>
 				<li><a href="books.php">Books</a></li>
 				<li><a href="universities.php">University</a></li>
+				<li><a href="../index.php ">&nbsp;&nbsp;&nbsp;User Panel</a></li>
                 
               
                 <?php

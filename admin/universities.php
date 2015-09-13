@@ -13,9 +13,9 @@
 	<div id="bodyLeftPan">
 		<h2><span>Contacts:-</span></h2>
                 <p style="color:#999999;text-decoration:underline">universities:-</p>
-                <p>mallabhum institute of technology.<br></p>
-                <p>techo india salt lake<br></p>
-                <p>bcet ,durgapur<br></p>
+                <p>Birla Institute Of Technology<br></p>
+                <p>BIT Mesra, Ranchi<br></p>
+                
 		<p class="more"><a href="#">contacts</a></p>
 	</div>
 	<div id="bodyRightPan">

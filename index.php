@@ -2,6 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<?php
+	  session_start(); 
+	   
+ ?>
+
+
 <title>Education Zone</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -19,8 +26,7 @@
 				<li><a href="admin/">admin</a></li>
 				<li><a href="contacts.php">Contact</a></li>
                 <li><a href="books.php">Books</a></li>
-				<li><a href="universities.php">University</a></li>
-                <li><a href="selectSub.php">online test</a></li>
+				<li><a href="universities.php">University</a></li>			
                 <li class="contact"><a href="forum.php" class="contact">Forum</a></li>
 			</ul>
 		</div>
@@ -29,7 +35,7 @@
 </div>
 <div id="bodyPan">
 	<?php
-	  session_start(); 
+	  
 	   include 'beforebodyleft.php';
      ?>
 	<div id="bodyRightPan">

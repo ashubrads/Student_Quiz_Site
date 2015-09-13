@@ -21,11 +21,26 @@ echo "<div id=\"topPan\">";
 				<li class="home"><a href="index.php">Home</a></li>
 				<li><a href="About.php">About</a></li>
 				<li><a href="contacts.php">Contact</a></li>
+				<?php
+		   if(isset($_SESSION['u'])){
+		   	?>
+		   
                 <li><a href="selectSub.php">online test</a></li>
+                <?php
+                }
+                ?>
 				<li><a href="books.php">Books</a></li>
 				<li><a href="universities.php">University</a></li>
                 <li><a href="forum.php">Forum</a></li>
-                <li class="contact"><a href="logout.php" class="contact">LogOut</a></li>
+                <?php
+                if(isset($_SESSION['u'])){
+		   	?>
+		   
+                <li ><a href="logout.php">LogOut</a></li>
+                <?php
+                }
+                ?>
+                
 			</ul>
 		</div>
         <div id="topMenuRightPan"></div>

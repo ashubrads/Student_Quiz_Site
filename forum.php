@@ -59,17 +59,7 @@
         <?php } ?>
      </div>
   <div id="bodyRightPan" style="margin-left:70px">
-		<h2><span>few</span> tips</h2>
-		<ul>
-			<li><a href="#">lorem ipsum dolor sit</a> </li>
-			<li><a href="#">Amet, consectetuer</a> </li>
-			<li><a href="#">Amet, consectetuer</a> </li>
-			<li><a href="#">Bibendum nunc. Lorem</a> </li>
-			<li><a href="#">Ipsum dolor sit amet, </a> </li>
-			<li><a href="#">Consectetuer adipiscinrt.</a> </li>
-			<li><a href="#">Integer porta enim vel mi.</a> </li>
-			<li><a href="#">Vivamus at mi.Ut</a> </li>		
-       </ul>
+	
 		  <?php
 		   if(!isset($_SESSION['u'])) 
 		     include 'login.php'; 

@@ -6,6 +6,8 @@
  $result=mysql_query($sql);
   session_start();
  $_SESSION['per']=0;
+ if(!isset($_SESSION['u']))
+ 	header("Location:index.php?msg=Login to Appear for the test");
  ?>
  <div id="bodyPan">
  <div id="bodyLeftPan" style="height:300px">
@@ -26,6 +28,11 @@
 		
  </div>
  </div>
+ <br><br><br><br><br>
+ <?php
+		   
+			  include 'afterlogin.php';
+		  ?>
  <?php
  include 'footer.php';
  ?>

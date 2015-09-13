@@ -19,17 +19,13 @@
 	</div>
 	<div id="bodyRightPan">
 		
-		</ul>
-        <?php
-		  if(!isset($_SESSION['u']))
-		  {
-	    ?>
-		<h3><span>Log</span> In</h3>
-		<p class="boldtext">Username:</p><p><input type="text"/></p><p class="boldtext">Password:<input type="password"/></p>
-                <p><br><input type="submit" value="submit"/></P>
-        <?php
-		  }
+		  <?php
+		   if(!isset($_SESSION['u'])) 
+		     include 'login.php'; 
+			 else
+			  include 'afterlogin.php';
 		  ?>
+		
 	</div>
 </div>
 <?php
